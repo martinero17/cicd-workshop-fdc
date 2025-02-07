@@ -39,6 +39,7 @@ void main() {
     await tester.pumpAndSettle();
 
     // Verify we're back on the homepage.
+    // This is used to create a branch.
     expect(find.text('Play'), findsOneWidget);
   });
 }
